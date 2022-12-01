@@ -2,6 +2,7 @@ package kleber.fort.uberclone.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -20,4 +21,16 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportActionBar().hide();
     }
+
+    public void abrirTelaLogin(View view){
+        startActivity(new Intent(this, LoginActivity.class));
+
+    }
+
+    public void abrirTelaCadastro(View view){
+        startActivity(new Intent(this, CadastroActivity.class));
+
+    }
+
+
 }

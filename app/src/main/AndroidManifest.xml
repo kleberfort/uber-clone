@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UberClone">
         <activity
+            android:name=".activity.CadastroActivity"
+            android:exported="true"
+            android:label="@string/titulo_cadastro"
+            android:parentActivityName=".activity.MainActivity"
+            />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true"
+            android:label="@string/titulo_login"
+            android:parentActivityName=".activity.MainActivity"
+            />
+        <activity
             android:name=".activity.MapsActivity"
             android:exported="true" />
         <!--
