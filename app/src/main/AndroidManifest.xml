@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UberClone">
-
+        <activity
+            android:name=".activity.MapsActivity"
+            android:exported="true" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -26,9 +28,9 @@
             android:value="YOUR_API_KEY" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".activity.MainActivity"
             android:exported="true"
-            android:label="@string/title_activity_maps">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

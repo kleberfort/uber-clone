@@ -1,4 +1,4 @@
-package kleber.fort.uberclone;
+package kleber.fort.uberclone.activity;
 
 import androidx.fragment.app.FragmentActivity;
 
@@ -11,6 +11,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import kleber.fort.uberclone.R;
 import kleber.fort.uberclone.databinding.ActivityMapsBinding;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
