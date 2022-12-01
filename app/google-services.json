@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1033642132290",
+    "project_id": "uber-bd7ee",
+    "storage_bucket": "uber-bd7ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033642132290:android:f6c55432a6996250477edb",
+        "android_client_info": {
+          "package_name": "kleber.fort.uberclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033642132290-9qn91cu352lib9e88asbasap6gib5c9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kleber.fort.uberclone",
+            "certificate_hash": "04ffd8c52648e8d304dda1e0ce28e5d28416c5eb"
+          }
+        },
+        {
+          "client_id": "1033642132290-qj3jq6hk9n1guuef3nmp46eelsnfvje8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL9bQM0mY4irqv3m7IF4O53PYRR18h_FQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033642132290-qj3jq6hk9n1guuef3nmp46eelsnfvje8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
